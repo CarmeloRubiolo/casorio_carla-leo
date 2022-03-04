@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img style="height: px" width="auto"
+                                    src="./imagenes/C&L.png" alt="" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Inicio <img
+                                                src="./imagenes/anillo.png" alt="" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#donde-y-cuando">Dónde & Cuándo <img
+                                                src="./imagenes/anillo.png" alt="" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Fotos <img src="./imagenes/anillo.png"
+                                                alt="" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#confirmar-asistencia">Confirmar Asistencia
+                                            <img src="./imagenes/anillo.png" alt="" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="position-relative">
+                        <img class="img-fluid" src="./imagenes/oswaldo-barcenas-oriHGZkYRco-unsplash.jpg" alt="" />
+                        <div id="main-fecha" class="position-absolute top-50 start-50 translate-middle">
+                            <h1>Carla & Leo</h1>
+                            <h2>Nuestra Boda</h2>
+                            <div id="clock"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center m-4" id="donde-y-cuando">Ubicación y Horario</h2>
+                    <div class="card" style="width: 18rem">
+                        <img src="./imagenes/salon.jpg" class="card-img-top" alt="Salon" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center m-3">Salón Avril</h5>
+                            <p class="card-text">
+                                <b>Dirección: </b> Av. Ciudad de Valparaíso 6000 | Córdoba |
+                                Argentina
+                            </p>
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver Mapa
+                            </button>
+                            <div  id="exampleModal" class="modal" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Salón Avril</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mapa">
+                                            <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.4114796493996!2d-64.19117858530396!3d-31.485371706741685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a37133007e11%3A0xa1d7bb161e8ec541!2sSal%C3%B3n%20Avril!5e0!3m2!1ses-419!2sar!4v1646427265566!5m2!1ses-419!2sar" style="padding:3px; border:3px solid rgb(252,211,217); height:300px; width:auto;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+        <div class="container"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Confirmar asistencia</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="confirmar-asistencia">
+                        Confirmar asistencia antes del 1 de Junio
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <script src="./js/cuentra_regresiva.js"></script>
+</body>
+
+</html>
