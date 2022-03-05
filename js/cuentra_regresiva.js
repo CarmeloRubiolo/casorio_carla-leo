@@ -40,3 +40,31 @@ function subir(){
         scrollTop:0
     },500)
 } */
+
+window.addEventListener("scroll", function(){
+  let animacion = document.getElementById("card_lugar");
+  let posicionObj1 = animacion.getBoundingClientRect().top;
+  let tamañoDePantalla = window.innerHeight;
+
+  if(posicionObj1 < tamañoDePantalla){
+    animacion.style.animation = "scale-up-center 3s ease"
+  }
+})
+window.addEventListener("scroll", function(){
+  let animacion = document.getElementById("donde-y-cuando");
+  let posicionObj1 = animacion.getBoundingClientRect().top;
+  let tamañoDePantalla = window.innerHeight;
+
+  if(posicionObj1 < tamañoDePantalla){
+    animacion.style.animation = "tracking-in-expand-fwd-bottom 2s ease"
+  }
+})
+window.addEventListener("scroll", function(){
+  let animacion = document.getElementById("fotos");
+  let posicionObj1 = animacion.getBoundingClientRect().top;
+  let tamañoDePantalla = window.innerHeight;
+
+  if(posicionObj1 < tamañoDePantalla){
+    animacion.style.animation = "tracking-in-contract 2s ease"
+  }
+})
