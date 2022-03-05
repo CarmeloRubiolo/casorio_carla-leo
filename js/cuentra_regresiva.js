@@ -31,20 +31,12 @@ const getRemainingTime = deadline => {
     }, 1000)
   };
   
-  countdown('Sep 17 2022 21:34:40 GMT-0500', 'clock', 'Nos casamoss!!');
+  countdown('Sep 17 2022 18:00:00 GMT-0500', 'clock', 'Nos casamoss!!');
 
-  /* $(document).ready(function(){
-	$('.goup').hide();
-	$('.goup').click(function(){
-		$('body,html').animate({
-			scrollTop:0
-		},1000)
-	});
-}); */
 let subirATope = document.getElementById("subir");
 subirATope.addEventListener("click", subir);
 function subir(){
     $("body,html").animate({
         scrollTop:0
-    },1000)
+    },500)
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Tangerine:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Jost:wght@300&family=Marck+Script&family=Pacifico&family=Tangerine:wght@700&display=swap');
 
 
 *{
@@ -24,20 +24,20 @@ body{
 #clock {
     font-size: 1.5em;
     text-align: center;
-    font-family: "jost", sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     
   }
   header h1{
     text-align: center;
-    font-family: "jost", sans-serif;
-    font-size: 3rem;
+    font-family: 'Marck Script', cursive;
+    font-size: 4rem;
     margin-bottom: 50px;
   }
   header h2{
-    font-size: 2.3rem;
+    font-size: 3rem;
     text-align: center;
-    font-family: 'Tangerine', cursive;
+    font-family:'Tangerine', cursive;
     margin-bottom:50px;
     font-weight: bold;
   }
@@ -48,11 +48,15 @@ body{
   header ul{
     border-left: 4px solid rgb(252,211,217);
     border-right: 4px solid rgb(252,211,217);
-    
   }
   header ul li{
-      margin-left:5px
+      margin-left:5px;
+      
   }
+  header ul li a{
+    font-family:'Marck Script', cursive;
+    font-size:20px;
+}
   main .mapa{
     height: 100%;
     width: 100%;
@@ -61,6 +65,9 @@ body{
     margin: 0px;
     left: 0px;
     top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #donde-y-cuando{
     font-family: 'Tangerine', cursive;
@@ -92,4 +99,33 @@ body{
     left:0;
     background: linear-gradient(90deg, rgb(253, 253, 253), rgb(241, 200, 124));
     opacity: 0.7;
+  }
+  .card{
+    -webkit-box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
+    box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
+  }
+  #carouselExampleIndicators{
+    -webkit-box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
+    box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
+
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px){
+    header nav #navbarNav{
+      top: 115px;
+      left:0px;
+      background-color: white;
+      position:absolute;
+      z-index: 999;
+    }
   }
