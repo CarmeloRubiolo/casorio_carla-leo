@@ -18,7 +18,7 @@
                 <div class="col-md-12">
                     <nav id="nav" class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img style="height: px" width="auto"
+                            <a class="navbar-brand" href="#"><img width="auto"
                                     src="./imagenes/C&L.png" alt="" /></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -28,15 +28,15 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Inicio <img
+                                        <a  class="nav-link" aria-current="page" href="#">Inicio <img
+                                                src="./imagenes/anillo.png" alt="" /></a> 
+                                    </li>
+                                    <li class="nav-item">
+                                        <a style="animation-duration:1s;" class="nav-link" href="#donde-y-cuando">Ubicación y horario<img
                                                 src="./imagenes/anillo.png" alt="" /></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#donde-y-cuando">Dónde & Cuándo <img
-                                                src="./imagenes/anillo.png" alt="" /></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Fotos <img src="./imagenes/anillo.png"
+                                        <a class="nav-link" href="#fotos">Fotos <img src="./imagenes/anillo.png"
                                                 alt="" /></a>
                                     </li>
                                     <li class="nav-item">
@@ -70,7 +70,9 @@
                             <h5 class="card-title text-center m-3">Salón Avril</h5>
                             <p class="card-text">
                                 <b>Dirección: </b> Av. Ciudad de Valparaíso 6000 | Córdoba |
-                                Argentina
+                                Argentina <br>
+                                <b>Fecha:</b> Sábado 17/09/2022 <br>
+                                <b>Horario: </b>17:30 hs
                             </p>
                             <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
@@ -103,25 +105,60 @@
                 <div class="col-md-6"></div>
             </div>
         </div>
-        <div class="container"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center" id="fotos">Fotos</h1>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imagenes/img-ilustrativas.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/img-ilustrativas2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/img_ilustrativas.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Confirmar asistencia</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p id="confirmar-asistencia">
+                    <h1 class="text-center" id="confirmar-asistencia">Confirmar asistencia</h1>
+                    <p class="text-center">
                         Confirmar asistencia antes del 1 de Junio
                     </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
         </div>
+        <img class="goup" id="subir" src="./imagenes/flecha-izquierda.png" alt="">
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     
     <script src="./js/cuentra_regresiva.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 </html>

@@ -5,13 +5,28 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    color:rgb(151, 113, 41)
+    color:rgb(192, 143, 52)
+}
+body{
+	position:relative;
+}
+.goup{
+	bottom:0px;
+	display: block;
+	height: 30px;
+	position: fixed;
+	right:10px;
+    bottom: 10px;
+	width:auto;
+    cursor: pointer;
+    transform: rotate(90deg);
 }
 #clock {
     font-size: 1.5em;
     text-align: center;
     font-family: "jost", sans-serif;
     font-weight: bold;
+    
   }
   header h1{
     text-align: center;
@@ -33,6 +48,7 @@
   header ul{
     border-left: 4px solid rgb(252,211,217);
     border-right: 4px solid rgb(252,211,217);
+    
   }
   header ul li{
       margin-left:5px
@@ -49,6 +65,17 @@
   #donde-y-cuando{
     font-family: 'Tangerine', cursive;
     font-size: 3rem;
+    margin:40px;
+  }
+  #confirmar-asistencia{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+  #fotos{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    margin: 30px;
   }
   .card_ubi{
       display:flex;
