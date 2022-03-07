@@ -32,15 +32,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   } 
   header h1{
     text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-size: 5rem;
-    margin-bottom: 50px;
-    width: 200px;
-    height:200px
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem;
+    width: 140px;
+    height:200px;
+    margin-bottom:70px;
   }
   header h2{
     font-size: 4rem;
@@ -54,14 +53,15 @@ body{
     font-family: 'Tangerine', cursive;
   }
   header ul{
-    border-left: 4px solid rgb(252,211,217);
-    border-right: 4px solid rgb(252,211,217);
+    border-left: 4px solid rgb(134,6,18);
+    border-right: 4px solid rgb(134,6,18);
   }
   header ul li{
       margin-left:5px;
       
   }
   header ul li a{
+    color: rgb(85,85,97);                    background-image: linear-gradient;
     font-family:'Marck Script', cursive;
     font-size:30px;
 }
@@ -76,6 +76,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .regalos{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    margin-top:40px;
+    text-align: center;
+  }
+  .regalos div p{
+    text-align: center;
+    
   }
   .vestimenta{
     display: flex;
@@ -105,7 +115,6 @@ body{
   #fotos{
     font-family: 'Tangerine', cursive;
     font-size: 3rem;
-    margin: 30px;
   }
   .card_ubi{
       display:flex;
@@ -127,6 +136,12 @@ body{
     -webkit-box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
     box-shadow: -18px -15px 15px -8px rgba(0,0,0,0.75);
+  }
+  .card_lugares_img{
+    height:230px;
+    width:auto;
+  }
+  .lasVegas{
   }
   #carouselExampleIndicators{
     -webkit-box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);

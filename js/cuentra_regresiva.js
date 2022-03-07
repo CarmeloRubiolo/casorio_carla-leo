@@ -31,7 +31,7 @@ const getRemainingTime = deadline => {
     }, 1000)
   };
   
-  countdown('Sep 17 2022 18:00:00 GMT-0500', 'clock', 'Nos casamoss!!');
+  countdown('Sep 17 2022 16:00:00 GMT-0500', 'clock', 'Nos casamoss!!');
 
 /* let subirATope = document.getElementById("subir");
 subirATope.addEventListener("click", subir);

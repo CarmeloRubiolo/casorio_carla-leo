@@ -18,7 +18,7 @@
                 <div class="col-md-12">
                     <nav id="nav" class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img style="height:100px;" width="auto"
+                            <a class="navbar-brand" href="#"><img style="height: 100px" width="auto"
                                     src="./imagenes/carlita.png" alt="" /></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -28,12 +28,13 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a  class="nav-link" aria-current="page" href="#">Inicio <img
-                                                src="./imagenes/anillo.png" alt="" /></a> 
+                                        <a class="nav-link" aria-current="page" href="#">Inicio <img
+                                                src="./imagenes/anillo.png" alt="" /></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style="animation-duration:1s;" class="nav-link" href="#donde-y-cuando">Ubicación y horario<img
-                                                src="./imagenes/anillo.png" alt="" /></a>
+                                        <a style="animation-duration: 1s" class="nav-link"
+                                            href="#donde-y-cuando">Ubicación y horario<img src="./imagenes/anillo.png"
+                                                alt="" /></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#fotos">Fotos <img src="./imagenes/anillo.png"
@@ -53,8 +54,8 @@
                             <div class="nombres">
                                 <h1>Carla & Leonel</h1>
                             </div>
-                            
-                            <h2>Nuestra Boda</h2>
+
+                            <!-- <h2>Nuestra Boda</h2> -->
                             <div id="clock"></div>
                         </div>
                     </div>
@@ -66,39 +67,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 card_ubi">
-                    <h2 class="text-center m-4" id="donde-y-cuando">Ubicación y Horario</h2>
+                    <h2 class="text-center m-4" id="donde-y-cuando">
+                        Ubicación y Horario
+                    </h2>
                     <div id="card_lugar" class="card" style="width: 18rem">
                         <img src="./imagenes/salon.jpg" class="card-img-top" alt="Salon" />
-                        <div class="card-body ">
+                        <div class="card-body">
                             <h5 class="card-title text-center m-3">Salón Avril</h5>
                             <p class="card-text">
                                 <b>Dirección: </b> Av. Ciudad de Valparaíso 6000 | Córdoba |
-                                Argentina <br><br>
-                                <b>Fecha:</b> Sábado 17/09/2022 <br><br>
-                                <b>Horario: </b>17:30 hs
+                                Argentina <br /><br />
+                                <b>Fecha:</b> Sábado 17/09/2022 <br /><br />
+                                <b>Horario: </b>17:45 hs
                             </p>
                             <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Ver Mapa
                             </button>
-                            <div  id="exampleModal" class="modal" tabindex="-1">
-                                <div class="modal-dialog ">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title">Salón Avril</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mapa">
-                                            <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.4114796493996!2d-64.19117858530396!3d-31.485371706741685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a37133007e11%3A0xa1d7bb161e8ec541!2sSal%C3%B3n%20Avril!5e0!3m2!1ses-419!2sar!4v1646427265566!5m2!1ses-419!2sar" style="padding:3px; border:3px solid rgb(252,211,217); height:300px; width:auto;" allowfullscreen="" loading="lazy"></iframe>
+                            <div id="exampleModal" class="modal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Salón Avril</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mapa">
+                                                <iframe class="img-fluid"
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.4114796493996!2d-64.19117858530396!3d-31.485371706741685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a37133007e11%3A0xa1d7bb161e8ec541!2sSal%C3%B3n%20Avril!5e0!3m2!1ses-419!2sar!4v1646427265566!5m2!1ses-419!2sar"
+                                                    style="
+                              padding: 3px;
+                              border: 3px solid rgb(252, 211, 217);
+                              height: 300px;
+                              width: auto;
+                            " allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                    </div>
-                                  </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,68 +124,142 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center" id="fotos">Fotos</h1>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div style="margin-top:70px" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./imagenes/img-ilustrativas.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./imagenes/img-ilustrativas2.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./imagenes/img_ilustrativas.jpg" class="d-block w-100" alt="...">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="./imagenes/img-ilustrativas.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/img-ilustrativas2.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/img_ilustrativas.jpg" class="d-block w-100" alt="..." />
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
+                    <h1 class="text-center" id="fotos">Fotos</h1>
                 </div>
+
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 vestimenta">
                     <h2>Vestimenta</h2>
-                    <div class="vestimenta-img" >
-                        <img style="height:80px" src="./imagenes/smoking.png" alt="">
-                        <img style="height:60px" src="./imagenes/vestir2.png" alt="">
+                    <div class="vestimenta-img">
+                        <img style="height: 80px" src="./imagenes/smoking.png" alt="" />
+                        <img style="height: 60px" src="./imagenes/vestir2.png" alt="" />
                     </div>
-                    <h3>Elegante</h3>
-                    
+                    <h3>( Elegante )</h3>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center" id="confirmar-asistencia">Confirmar asistencia</h1>
+                    <h2 class="regalos">Regalos</h2>
+                    <p style="text-align:center">Elegí nuestro destino de luna de miel</p>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <!-- <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div> -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imagenes/LasVegas.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption" style="background-color: white">
+                                <div class="lasVegas">
+                                    <h5>LAS VEGAS</h5>
+                                    <div>
+                                        <label>Elegir lugar </label>
+                                        <input type="checkbox">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/Qatar.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption" style="background-color: white">
+                              <h5>QATAR</h5>
+                              <div>
+                                <label>Elegir lugar </label>
+                                <input type="checkbox">
+                            </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/Tailandia.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption" style="background-color: white">
+                              <h5>TAILANDIA</h5>
+                              <div>
+                                <label>Elegir lugar </label>
+                                <input type="checkbox">
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+               <!--  <div class="col-md-4 card_lugares">
+                    <img class ="card_lugares_img" src="./imagenes/LasVegas.jpg" alt=""> 
+                </div>
+                <div class="col-md-4">
+                    <img class ="card_lugares_img" src="./imagenes/Qatar.jpg" alt=""> 
+                </div>
+                <div class="col-md-4">
+                    <img class ="card_lugares_img" src="./imagenes/Tailandia.jpg" alt=""> 
+                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center" id="confirmar-asistencia">
+                        Confirmar asistencia
+                    </h1>
                     <p class="text-center">
-                        Confirmar asistencia antes del 1 de Junio
+                        Confirmar asistencia antes del 1 de Agosto
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    
-                </div>
+                <div class="col-md-12"></div>
             </div>
         </div>
         <!-- <img class="goup" id="subir" src="./imagenes/flecha-izquierda.png" alt=""> -->
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
     <script src="./js/cuentra_regresiva.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
