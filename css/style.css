@@ -87,7 +87,7 @@ body{
     text-align: center;
   }
   .tarjeta{
-    margin-left: 34px;
+    margin-left: 50px;
   }
   .card-regalos{
     display: flex;
@@ -193,7 +193,7 @@ body{
     background-image: url("../imagenes/img-footer.jpg");
     background-size:100%;
     background-repeat: no-repeat;
-    width:351px; 
+    width:360px; 
     height:200px;
   }
   .nombres_footer div{
