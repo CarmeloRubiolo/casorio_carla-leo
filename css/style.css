@@ -85,8 +85,20 @@ body{
   }
   .regalos div p{
     text-align: center;
-    
   }
+  .card-regalos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .tarjeta{
+    border: 1px solid gray;
+    border-radius:8px;
+  }
+.tarjeta h1{
+  font-family:'Tangerine', cursive;
+  font-size: 3rem;
+}
   .vestimenta{
     display: flex;
     flex-direction: column;
@@ -140,8 +152,6 @@ body{
   .card_lugares_img{
     height:230px;
     width:auto;
-  }
-  .lasVegas{
   }
   #carouselExampleIndicators{
     -webkit-box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
