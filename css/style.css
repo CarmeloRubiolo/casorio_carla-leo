@@ -89,7 +89,7 @@ body{
   .card-regalos{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .tarjeta{
     border: 1px solid gray;
