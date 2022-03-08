@@ -86,10 +86,12 @@ body{
   .regalos div p{
     text-align: center;
   }
+  .tarjeta{
+    margin-left: 34px;
+  }
   .card-regalos{
     display: flex;
     justify-content: space-between;
-    margin-left: 60px;
   }
   .tarjeta{
     border: 1px solid gray;
@@ -143,9 +145,24 @@ body{
     border: 1px solid rgb(134,6,18);
     
   }
+  .instagram{ 
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
   .btn-conf-asistencia a{
     text-decoration: none;
     color:white;
+  }
+  .enlace-ig a{
+    color: white;
+    text-decoration: none;
+  }
+  .enlace-ig{
+    text-align: center;
+    
   }
   .img-borroso:before{
     content: "";
@@ -172,7 +189,22 @@ body{
     box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
 
   }
-
+  .nombres_footer{
+    background-image: url("../imagenes/img-footer.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width:351px; 
+    height:200px;
+  }
+  .nombres_footer div{
+    position:absolute;
+    left:190px;
+    bottom:110px;
+    font-family: 'Tangerine', cursive;
+  }
+  .nombres_footer div h3{
+    font-size: 35px;
+  }
 /* CARD-IMG */
   @keyframes scale-up-center {
     0% {
