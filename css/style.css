@@ -118,7 +118,7 @@ body{
     font-family: 'Tangerine', cursive;
     font-size: 3rem;
     margin:40px;
-  }
+  } 
   #confirmar-asistencia{
     font-family: 'Tangerine', cursive;
     font-size: 3rem;
@@ -133,6 +133,19 @@ body{
       justify-content:center;
       flex-direction: column;
       align-items: center;
+  }
+  .btn-conf-asistencia{
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px 0 20px 0;
+    box-shadow: -5px -5px 6px 0px #000000;
+    background-color: rgb(134,6,18);
+    border: 1px solid rgb(134,6,18);
+    
+  }
+  .btn-conf-asistencia a{
+    text-decoration: none;
+    color:white;
   }
   .img-borroso:before{
     content: "";
