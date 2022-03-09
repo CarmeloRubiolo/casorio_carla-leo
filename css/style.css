@@ -10,6 +10,9 @@
 body{
 	position:relative;
 }
+p{
+  font-family:'Courier New', Courier, monospace;
+}
 /* .goup{
 	bottom:0px;
 	display: block;
@@ -87,7 +90,14 @@ body{
     text-align: center;
   }
   .tarjeta{
-    margin-left: 70px;
+    width: 500px;
+    /* margin-left: 70px; */
+  }
+  .carousel-control-next-icon{background-image: url("../imagenes/flecha-definitiva2.png"); }
+  .carousel-control-prev-icon{
+    background-image: url("../imagenes/flecha-definitiva2.png"); 
+    transform: rotate(180deg);
+  
   }
   .card-regalos{
     display: flex;
