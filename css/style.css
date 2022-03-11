@@ -209,9 +209,10 @@ p{
   .nombres_footer div{
     position:absolute;
     left:190px;
-    bottom:110px;
+    bottom:150px;
     font-family: 'Tangerine', cursive;
   }
+  
   .nombres_footer div h3{
     font-size: 35px;
   }
@@ -225,6 +226,17 @@ p{
       -webkit-transform: scale(1);
               transform: scale(1);
     }
+  }
+  footer div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 60px;
+    background-color: #0D2A33;
+  }
+  footer h6 a{
+    text-decoration: none;
+    color: black;
   }
 /* UBICACION Y HORARIO */
   @keyframes tracking-in-expand-fwd-bottom {
