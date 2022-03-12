@@ -199,12 +199,6 @@ p{
     box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
 
   }
-  .nombres_footer div{
-    position:absolute;
-    left:190px;
-    bottom:150px;
-    font-family: 'Tangerine', cursive;
-  }
   
   .nombres_footer div h3{
     font-size: 35px;
@@ -222,6 +216,7 @@ p{
   }
   footer div{
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     height: 100px;
@@ -229,7 +224,10 @@ p{
   }
   footer h6 a{
     text-decoration: none;
-    color: black;
+    color: rgb(52,232,180);
+  }
+  footer .contactarse{
+    width: 300px;
   }
 /* UBICACION Y HORARIO */
   @keyframes tracking-in-expand-fwd-bottom {
