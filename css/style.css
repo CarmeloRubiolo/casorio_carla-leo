@@ -199,13 +199,6 @@ p{
     box-shadow: -19px -17px 0px -8px rgba(0,0,0,0.75);
 
   }
-  .nombres_footer{
-    background-image: url("../imagenes/img-footer.jpg");
-    background-size:100%;
-    background-repeat: no-repeat;
-    width: 100%; 
-    height:200px;
-  }
   .nombres_footer div{
     position:absolute;
     left:190px;
@@ -231,7 +224,7 @@ p{
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 60px;
+    height: 100px;
     background-color: #0D2A33;
   }
   footer h6 a{
